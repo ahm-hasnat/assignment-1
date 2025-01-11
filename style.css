@@ -11,7 +11,7 @@
     align-items: center;
     margin: 20px 105px;
 }
- .nav h2{
+ .nav h2 #footer h2{
     font-size: 25px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
@@ -110,12 +110,12 @@
     color:rgba(14, 14, 14, 0.8) ;
 
   }
-  .card p,.card3 h3 ,#vision p,#yunus p,.aljazera p{
+  .card p,.card3 h3 ,#vision p,#yunus p,.aljazera p,#donate p,#subscribe p{
     font-size:12px ;
     font-weight:normal ;
     color: rgba(14, 14, 14, 0.7);
   }
-  #pillar h1,#vision h1,#table h1{
+  #pillar h1,#vision h1,#table h1,#donate h1,#subscribe h2{
     font-size:30px ;
     font-weight: bold;
     color:rgba(14, 14, 14, 1) ;
@@ -297,7 +297,148 @@
     border-radius:8px ;
     border: none;
   }
-  .btnaj:hover{
+  .btnaj:hover,#donate button:hover, #subscribe button:hover{
     color: black;
     background-color: darkcyan;
+    cursor: pointer;
   }
+
+  #donate{
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ccont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 860px;
+   
+  }
+  .ccard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 110px;
+    color: #ffffff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px;
+    margin: 22px 0;
+
+  }
+  .and{
+    background-color:rgba(198, 228, 214, 1) ;
+  }
+  #donate p{
+    margin-top: 18px;
+    text-align: center;
+    width: 820px;
+  }
+  .today{
+    margin: 0;
+  }
+  .input{
+   text-align: center;
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color:rgba(14, 14, 14, 0.3) ;
+    border:1px solid rgba(14, 14, 14, 0.15) ;
+
+  }
+  #donate button{
+    color:#ffffff ;
+    background-color:rgba(0, 106, 80, 1) ;
+    padding:13px 17px ;
+    font-size: 16px;
+    font-weight:600 ;
+    border-radius: 8px;
+    border: none;
+  }
+  #subscribe{
+    width: 1030px;
+    background-color:rgba(198, 228, 214, 1);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 30px;
+
+  }
+  .email{
+    margin: 22px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    
+  }
+  .last{
+    padding: 13px 23px;
+    border: none;
+    width: 490px;
+    border-radius: 10px 0px 0px 10px ;
+    color: rgba(14, 14, 14, 0.3);
+    margin: 0;
+  }
+  .buton{
+    padding: 13px 23px;
+    border: none;
+    width: 125px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(0, 106, 80, 1);
+    color: #ffffff;
+    font-size:13px ;
+    font-weight:600 ;
+    margin: 0;
+    
+  }
+  #subscribe h2{
+    margin-top: 10px;
+    margin-bottom: 13px;
+  }
+  #subscribe p{
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 500px;
+    text-align: center;
+  }
+
+
+  #footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    border: 0.5px solid rgba(14, 14, 14, 0.1);
+    border-left: none;
+    border-right: none;
+    padding: 35px;
+  }
+  
+#footer h2{
+    text-align: center;
+    margin: 0;
+}
+  #footer hr{
+    width: 972px;
+    border: 0.7px solid rgba(14, 14, 14, 0.1) ;
+    margin: 20px 0;
+  }
+  #footer img{
+    height: 18px;
+    width: 18px;
+  }
+
+
+
+  
+  
