@@ -104,13 +104,13 @@
     height: 50px;
     width: 50px;
  }
-  .card h2, .card2 h3{
+  .card h2, .card2 h3,#yunus h3{
     font-size:16px ;
     font-weight:bold ;
     color:rgba(14, 14, 14, 0.8) ;
 
   }
-  .card p,.card3 h3 ,#vision p{
+  .card p,.card3 h3 ,#vision p,#yunus p{
     font-size:12px ;
     font-weight:normal ;
     color: rgba(14, 14, 14, 0.7);
@@ -123,6 +123,7 @@
   #vision{
     width: 1030px;
     margin: 70px auto;
+    margin-bottom: 30px;
   }
   .card2{
     display: flex;
@@ -174,6 +175,20 @@
   .btn1:hover,.btn2:hover,.btn3:hover{
     color: aliceblue;
     background-color: rgb(90, 86, 47);
+  }
+
+  #yunus{
+    width: 1030px;
+    margin: 0px auto;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+  }
+  .ycon{
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top 14px left 20px;
+    padding: 22px;
+    background-size: 64px 64px;
   }
   
   
