@@ -26,7 +26,7 @@
  border-radius: 8px;
 }
 .button:hover,.button2:hover{
-    background-color: rgba(33, 70, 33, 0.628);
+    background-color: rgba(13, 44, 13, 0.845);
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -110,12 +110,12 @@
     color:rgba(14, 14, 14, 0.8) ;
 
   }
-  .card p,.card3 h3 ,#vision p,#yunus p{
+  .card p,.card3 h3 ,#vision p,#yunus p,.aljazera p{
     font-size:12px ;
     font-weight:normal ;
     color: rgba(14, 14, 14, 0.7);
   }
-  #pillar h1,#vision h1{
+  #pillar h1,#vision h1,#table h1{
     font-size:30px ;
     font-weight: bold;
     color:rgba(14, 14, 14, 1) ;
@@ -191,4 +191,113 @@
     background-size: 64px 64px;
   }
   
+  #table td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .taable{
+    border-collapse: collapse;
+    width:100%;
+  }
+#table thead{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: justify;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+ #table th{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ #table{
+    width: 1030px;
+    margin:70px auto ;
+ }
+ .tabble{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 30px;
+    border-radius: 10px; 
+ }
+ .btn11{
+    text-align: center;
+   font-weight: 500;
+ }
+ .btn11 button{
+    color: rgba(14, 14, 14, 1);
+    background-color: rgba(9, 161, 92, 0.15);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 6px 10px;
+    border-radius: 4px;
+ }
+
+
+ .aljazera{
+    width: 1030px;
+    margin:50px auto ;
+    
+ }
+ .news{
+    padding: 32px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-direction:row;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+
+ }
+ .news img{
+    border-radius: 12px;
+    width: 330px;
+    height: 242px;
+
+ }
+
+  .newstext{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 22px;
+  }
+  .newstext img{
+    width: 112px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  .smallp{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:8px;
+    margin: 0;
+  }
   
+  .newstext h2{
+     font-size:26px ;
+    font-weight:bold ;
+    color:rgba(14, 14, 14, 0.8) ;
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+  .aljazera p{
+    margin-top: 0;
+    margin-bottom: 22px;
+  }
+  .btnaj{
+    color:rgba(255, 255, 255, 1) ;
+    background-color:rgba(0, 106, 80, 1) ;
+    padding: 13px 15px;
+    font-size: 14px;
+    font-weight:600 ;
+    border-radius:8px ;
+    border: none;
+  }
+  .btnaj:hover{
+    color: black;
+    background-color: darkcyan;
+  }
