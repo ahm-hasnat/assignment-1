@@ -115,7 +115,7 @@
     font-weight:normal ;
     color: rgba(14, 14, 14, 0.7);
   }
-  #pillar h1,#vision h1,#table h1,#donate h1,#subscribe h2{
+  #pillar h1,#vision h1,#table h1,#donate h1,#subscribe h2,.aljazera h2{
     font-size:30px ;
     font-weight: bold;
     color:rgba(14, 14, 14, 1) ;
@@ -331,7 +331,7 @@
     margin: 22px 0;
 
   }
-  .and{
+  .ccard:hover{
     background-color:rgba(198, 228, 214, 1) ;
   }
   #donate p{
